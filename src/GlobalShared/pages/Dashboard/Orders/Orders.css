@@ -1,0 +1,12 @@
+.tmp-orders-container .table>:not(:first-child) {
+    border-top-width: 0.1px !important;
+}
+.tmp-orders-container .table>:not(caption)>*>* {
+    border-bottom-width: 0.1px !important;
+    vertical-align: middle !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .tmp-orders-container span{
+        display: none;
+    }
+}

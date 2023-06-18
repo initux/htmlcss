@@ -1,0 +1,29 @@
+
+.tmp15-brands-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+}
+.tmp15-brands-list-inner{
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.tmp15-brands-list-inner:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+.tmp15-brands-list h6 {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+@media only screen and (min-width: 0) and (max-width: 768px) {
+    .tmp15-brands-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,44 @@
+.video-review-container{
+    padding: 1px 20px 1px;
+    margin-bottom: 40px;
+    box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    border-radius: 8px;
+}
+.video-review-container h3{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* margin-top: 0px; */
+}
+.video-review-inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    background-color:#f2f2f2;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+    .video-review-inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+}

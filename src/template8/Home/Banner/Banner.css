@@ -1,0 +1,140 @@
+.tem8-banner-container{
+    background-image: url('https://andshop-react.netlify.app/static/media/banner_3.71b74319.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 775px;
+}
+.tem8-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tem8-banner h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+.tem8-banner h3{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f3f3f3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.tem8-banner .tem8-banner-btn{
+    outline: none;
+    border: none;
+    /* background: #222; */
+    padding: 20px 50px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .3s linear;
+    font-family: Lato;
+}
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .tem8-banner-container{
+        height: 565px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .tem8-banner-container{
+        height: 560px;
+    }
+    .tem8-banner h1 {
+        font-size: 107px;
+        line-height: 112px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .tem8-banner-container{
+        height: 415px;
+    }
+    .tem8-banner h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .tem8-banner-container{
+        height: 307px;
+    }
+    .tem8-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .tem8-banner h3{
+        font-size: 20px;
+    }
+    .tem8-banner .tem8-banner-btn{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 576px) {
+    .tem8-banner-container{
+        height: 326px;
+    }
+    .tem8-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .tem8-banner h3{
+        font-size: 20px;
+    }
+    .tem8-banner .tem8-banner-btn{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+    .tem8-banner-container{
+        height: 283px;
+    }
+    .tem8-banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .tem8-banner h3{
+        font-size: 15px;
+    }
+    .tem8-banner .tem8-banner-btn{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+    .tem8-banner-container{
+        height: 240px;
+    }
+    .tem8-banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .tem8-banner h3{
+        font-size: 15px;
+    }
+    .tem8-banner .tem8-banner-btn{
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
+/* @media only screen and (min-width: 0px) and (max-width: 371px) {
+    .tem8-banner-container{
+        height: 205px;
+    }
+    .tem8-banner h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .tem8-banner h3{
+        font-size: 14px;
+    }
+    .tem8-banner .tem8-banner-btn{
+        padding: 7px 26px;
+        font-size: 12px;
+    }
+} */

@@ -1,0 +1,70 @@
+.tmp7-products-container{
+    z-index: 666 !important;
+}
+.tmp7-products-title span {
+    font-family: Mrs Saint Delafield;
+    color: #d05278;
+    display: inline-block;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.tmp7-products-title h2 {
+    font-size: 54px;
+    line-height: 54px;
+    color: #222;
+    font-family: Tenor Sans;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.tmp7-products-title p {
+    max-width: 456px;
+    margin: 29px auto 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666;
+    font-weight: 400;
+    line-height: 170%;
+}
+.tmp7-products-title .tmp7-all-product-btn {
+    background: #faf9ff;
+    border: 1px solid #eee;
+    box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+    padding: 6px 29px;
+    font-size: 16px;
+    line-height: 170%;
+    color: #666;
+    cursor: pointer;
+    margin: 0px 10px 20px;
+}
+.tmp7-products-title .tmp7-all-product-btn-active {
+    background: #d05278;
+    color: #fff;
+    border: none;
+}
+.tmp7-products-inner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .tmp7-products-inner{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .tmp7-products-inner{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp7-products-inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tmp7-products-title .tmp7-all-product-btn {
+       display: none;
+    }
+}

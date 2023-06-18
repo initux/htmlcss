@@ -1,0 +1,38 @@
+.tmp8-trending-container{
+    /* background-image: url('https://andshop-react.netlify.app/static/media/offer-banner.b01027d7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; */
+    padding: 115px 0;
+    margin-top: 40px;
+}
+.tmp8-trending-container h4{
+   font-size: 20px;
+   font-weight: 400;
+}
+.tmp8-trending-container h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.tmp8-trending-container p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.tmp8-trending-container .tmp8-trending-btn{
+    outline: none;
+    border: none;
+    background: #fff;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    font-family: Lato;
+    margin-top: 10px;
+}

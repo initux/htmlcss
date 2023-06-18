@@ -1,0 +1,75 @@
+.tmp8-categories-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+.tmp8-categories-inner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    /* margin: 20px 10px; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+/* .tmp8-categories-1{
+    background-image: url('https://andshop-react.netlify.app/static/media/woman.285f1a7d.png');
+}
+.tmp8-categories-2{
+    background-image: url('https://andshop-react.netlify.app/static/media/woman1.b58d4262.png');
+}
+.tmp8-categories-3{
+    background-image: url('https://andshop-react.netlify.app/static/media/bag.e31a8e04.png');
+}
+.tmp8-categories-4{
+    background-image: url('https://andshop-react.netlify.app/static/media/woman4.6c41e1ce.png');
+}
+.tmp8-categories-5{
+    background-image: url('https://andshop-react.netlify.app/static/media/kids.d99e7e66.png');
+} */
+
+
+.tmp8-categories-inner h4{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.tmp8-categories-inner h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tmp8-categories-container .tmp8-categories-btn{
+    outline: none;
+    border: none;
+    /* background: #222; */
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    font-family: Lato;
+    margin-top: 10px;
+}
+
+/* @media only screen and (min-width: 768px) and (max-width:992px) {
+    .tmp8-categories-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .tmp8-categories-last{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+} */
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp8-categories-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } 
+}

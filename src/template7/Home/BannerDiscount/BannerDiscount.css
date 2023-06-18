@@ -1,0 +1,106 @@
+.banner-discount-container{
+    background-image: url('https://i.ibb.co/7CcVy67/discount-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.banner-discount{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-discount h6{
+    font-size: 60px;
+    font-family: Mrs Saint Delafield;
+    color: #d05278;
+    display: block;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-top: 150px;
+}
+.banner-discount h1{
+    display: block;
+    font-family: Tenor Sans;
+    color: #222;
+    font-size: 100px;
+    margin-bottom: 30px;
+    margin-top: 4px;
+}
+.banner-discount p{
+    max-width: 465px;
+    font-size: 20px;
+    line-height: 150%;
+    font-family: Tenor Sans;
+    color: #666;
+}
+.banner-discount .tem7-discount-btn{
+    height: 60px;
+    line-height: 59px;
+    outline: none;
+    border: none;
+    background: #222;
+    padding: 0 50px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .3s linear;
+    font-family: Lato;
+    margin: 40px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 535px) and (max-width:992px) {
+    .banner-discount-container{
+        height:  500px;
+    }
+    .banner-discount h6{
+        padding-top: 100px;
+    }
+    .banner-discount-container h1{
+        font-size: 50px;
+    }
+    .banner-discount p{
+        font-size: 17px;
+        line-height: 120%;
+    }
+    .banner-discount .tem7-discount-btn{
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 463px) and (max-width:535px) {
+    .banner-discount-container{
+        height:  500px;
+    }
+    .banner-discount h6{
+        padding-top: 80px;
+    }
+    .banner-discount p{
+        font-size: 13px;
+    }
+    .banner-discount-container h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:463px) {
+    .banner-discount-container{
+        height:  400px;
+    }
+    .banner-discount h6{
+        padding-top: 50px;
+    }
+    .banner-discount p{
+        font-size: 12px;
+    }
+    .banner-discount-container h1{
+        font-size: 30px;
+    }
+    .banner-discount .tem7-discount-btn{
+        /* height: 50px; */
+        margin-top: 0px;
+        padding: 0 40px;
+        font-size: 12px;
+    }
+    
+}

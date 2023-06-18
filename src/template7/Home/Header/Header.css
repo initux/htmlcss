@@ -1,0 +1,29 @@
+.tmp7-header-container{
+    background-color: rgba(252,237,234,.9);
+    box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+}
+.tmp7-header-container .navbar-light, .tmp7-header-container .navbar-nav, .tmp7-header-container .nav-link {
+    color: #222 !important;
+    margin: 0px 10px;
+}
+
+.tmp7-header-top-cart{
+    position: relative;
+}
+.tmp7-header-top-cart span{
+    content: '7';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    top: -4px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp7-header-container, .tmp7-header{
+        display: none
+    }
+}

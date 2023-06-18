@@ -1,0 +1,102 @@
+.tmp7-products-summery{
+    background-color: #fff;
+    box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.tmp7-products-summery .tmp7-image{
+    position: relative;
+}
+.tmp7-products-summery .tmp7-image .image{
+   width: 250px;
+   height: 250px;
+   margin: 0 auto;
+   overflow: hidden; 
+}
+.tmp7-products-summery .tmp7-image .image img{
+    width: 100%;
+    /* height: auto; */
+}
+.tmp7-products-summery .hot{
+    color: #fff;
+    font-size: 12px;
+    width: 45px;
+    height: 25px;
+    text-transform: uppercase;
+    /* background: #fdd922; */
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.tmp7-products-summery h4 {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+/* hover */
+.tmp7-image .hover-box{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    /* background: #222; */
+    opacity: 1;
+    transition: 0.6s linear;
+}
+
+.tmp7-image .hover-box ul{
+    padding-left: 0;
+	position: absolute;
+	top:80%;
+	left:50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+}
+.tmp7-image .hover-box ul li{
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50%;
+   background-color: #fff;
+   list-style: none;
+   display:inline-block;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.tmp7-image  .hover-box ul button{
+    border: none;
+    background-color: transparent;
+    color: #222;
+}
+
+.tmp7-image:hover .hover-box{
+    opacity: 0.8;
+    background: #222;
+    transition: 1s;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 506px) {
+    .tmp7-products-summery .tmp7-image .image{
+        width: 160px;
+        height: 160px;
+     }
+     .tmp7-products-summery span {
+        font-size: 16px;
+    }
+}

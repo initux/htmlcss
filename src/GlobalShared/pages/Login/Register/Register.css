@@ -1,0 +1,87 @@
+.tmp-register-container{
+    margin: 60px auto;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    width: 40%;
+    padding:30px 0px;
+}
+.tmp-register-with-phone form{
+    width:100%;
+    text-align:center;
+}
+
+.tmp-register-with-phone form input[type=text], .tmp-register-with-phone form input[type=password]{
+    /* border: 2px solid #157ed2; */
+    outline: none;
+    border-radius: 6px;
+    width:300px;
+    height: 40px !important;
+    padding: 0px 10px;
+    box-shadow: 0px 3px 8.55px 0.45px rgb(0 0 0 / 21%);
+    font-size: 15px;
+}
+.tmp-register-with-phone form input[type=submit] {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 6px;
+    box-shadow: 0 3px 13.05px 1.95px rgb(0 0 0 / 21%);
+    width:300px;
+    height: 40px !important;
+    padding: 0;
+    font-size: 13px !important;
+    background-color: #157ed2;
+    color: #fff;
+}
+.tmp-register-container input {
+    margin-bottom: 20px;
+}
+.tmp-register-container span {
+    color: #333 !important;
+}
+.tmp-register-container button {
+    color: #fff !important;
+    background-color: #157ed2;
+    border: 2px solid transparent;
+    outline: none;
+}
+/* .tmp-register-container button:hover {
+    color: #157ed2 !important;
+    background-color: transparent !important;
+    border: 2px solid #157ed2;
+    transition: 1s;
+} */
+
+/* .country{
+        outline: none;
+    border-radius: 6px;
+    width:300px;
+    height: 40px !important;
+    padding: 0px 10px;
+    box-shadow: 0px 3px 8.55px 0.45px rgb(0 0 0 / 21%);
+}
+.address{
+        outline: none;
+    border-radius: 6px;
+    width:300px;
+    height: 40px !important;
+    padding: 0px 10px;
+    box-shadow: 0px 3px 8.55px 0.45px rgb(0 0 0 / 21%);
+} */
+
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp-register-container{
+        width: 100%;
+        padding:50px 0px;
+    }
+    .tmp-register-with-phone form input[type=text], 
+    .tmp-register-with-phone form input[type=email], 
+    .tmp-register-with-phone form input[type=password], 
+    .tmp-register-with-phone form input[type=submit]{
+        width:90%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:420px) {
+    .tmp-register-container{
+        margin: 40px auto;
+    }
+}

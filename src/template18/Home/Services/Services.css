@@ -1,0 +1,38 @@
+.tmp16-services-container{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.tmp16-services-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tmp16-services-list .tmp16-services {
+    font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2px;
+    padding: 10px 5px;
+    color: #1b1b28;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.tmp16-services-list .tmp16-services h4 {
+    color: #0B2B3C;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .tmp16-services-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:768px) {
+    .tmp16-services-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

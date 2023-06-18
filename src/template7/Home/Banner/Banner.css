@@ -1,0 +1,19 @@
+.tem7-banner{
+    /* background-image: url('https://i.ibb.co/vL0f7cC/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* height:  400px; */
+    width: 100%;
+    position: relative;
+}
+.tem7-banner img{
+    max-height: 400px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tem7-banner img{
+        max-height: 100%;
+    }
+}

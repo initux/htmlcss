@@ -1,0 +1,33 @@
+
+.tem8-CountDownTimer div{
+    width: 100px;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.tem8-CountDownTimer div:last-child{
+    margin-bottom: 0px;
+}
+.tem8-CountDownTimer h6{
+    font-size:  20px;
+    font-weight: 700;
+    color: #545454;
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tem8-CountDownTimer{
+        display: flex;
+    }
+    .tem8-CountDownTimer div:last-child{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:422px) {
+    .tem8-CountDownTimer div{
+        width: 67px;
+        padding: 9px;   
+    }
+    .tem8-CountDownTimer span{
+       font-size: 11px
+    }
+}

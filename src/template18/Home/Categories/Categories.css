@@ -1,0 +1,87 @@
+.tmp18-categories-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    font-size: 24px;
+    color: #222;
+    line-height: 32px
+}
+.tmp18-categories-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.tmp18-categories-inner{
+    padding: 20px;
+    box-shadow: 0 0px 4px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tmp18-categories-container h3{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.tmp18-categories-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* background-color: #cccccc; */
+}
+
+.tmp18-categories-products-btn{
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 5px 0px;
+    position: relative;
+}
+.tmp18-categories-products-btn-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    width: 100px;
+    height: 40px;
+    /* padding: 0px 25px; */
+    /* visibility: hidden; */
+    opacity: 0;
+    /* display: contents; */
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .tmp18-categories-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width:992px) {
+    .tmp18-categories-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .tmp18-categories-title{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .tmp18-categories-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+}

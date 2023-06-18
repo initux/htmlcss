@@ -1,0 +1,88 @@
+.tmp14-foryou-summery-container{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tmp14-foryou-summery-container .tmp14-foryou-summery-image{
+    position: relative;
+}
+/* .tmp14-foryou-summery-container .tmp14-foryou-summery-image:hover .image img{
+    transform: scale(1.1);
+    transition: 1s;
+} */
+.tmp14-foryou-summery-container .image{
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.tmp14-foryou-summery-container .image img{
+    /* display: inline-block; */
+    width: 100%;
+    /* height: auto; */
+    /* vertical-align: middle; */
+}
+.tmp14-foryou-summery-container h4{
+    font-size: 14px;
+    /* color: var(--color8); */
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    /* font-weight: bold; */
+    height: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.tmp14-foryou-summery-container p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f6cb2;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+
+.tmp14-foryou-summery-container .hot{
+    /* border-radius: 50px; */
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    width: 70px;
+    height: 25px;
+    text-transform: uppercase;
+    background: #fdd922;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+.tmp14-foryou-summery-container .hot span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .tmp14-foryou-summery-container .image{
+        width: 170px;
+        height: 170px;
+    }
+} 
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .tmp14-foryou-summery-container .image{
+        width: 292px;
+        height: 292px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .tmp14-foryou-summery-container .image {
+        height: 160px;
+        width: 160px;
+    }
+}

@@ -1,0 +1,26 @@
+.tmp2-header{
+    background-color: #fafafa !important;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+.tmp2-header-btn{
+    background-color: #009f7f;
+    width:100px;
+    border: none;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.tmp2-header-btn:hover{
+    background-color: transparent;
+    color: #009f7f;
+    border: 1px solid #009f7f;
+}
+.tmp2-header .navbar-light, .tmp2-header .navbar-nav, .tmp2-header .nav-link{
+    color: #1f2937 !important;
+    font-size: 18px;
+    font-weight:400
+}
+@media only screen and (min-width: 0px) and (max-width:992px) {
+    .tmp2-header{
+        display: none !important;
+    }
+}

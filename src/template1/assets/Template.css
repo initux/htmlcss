@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap');
+
+:root{
+  --color1:#fff;
+  --color2:#0f6cb2;
+  --color3:#157ed2;
+  --color4:#157ed2;
+  --color5:#fdd922;
+  --color6:#e9c532;
+  --color7:#333;
+  --color8:#666666;
+  --color9:#eaeaea;
+  --color10:#010101;
+  --color11:#ff4747;
+}
+.tmp1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height:100vh;
+  background-color: #f2f2f2;
+}
+a{
+  text-decoration: none !important;
+}
+li{
+  list-style: none;
+}
+
+.container{
+  /* max-width: 1470px !important */
+}
+/* @media (min-width: 1400px) {
+    .container{
+      width: 1500px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+      width: 1140px !important;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+      width: 960px !important;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+      width: 720px !important;
+    }
+}
+@media (min-width: 576px) {
+    .container{
+      width: 540px !important;
+    }
+} */
+
+/* @media only screen and (min-width: 0px) and (max-width:14000px) {
+  .container{
+    width: 1500px !important;
+  }
+} */

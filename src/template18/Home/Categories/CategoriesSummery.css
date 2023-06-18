@@ -1,0 +1,15 @@
+.tmp18-categories-summery-container{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.tmp18-categories-summery-container .image{
+    /* width: 200px; */
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+.tmp18-categories-summery-container .image img{
+    width: 100%;
+    border-radius: 2px;
+}

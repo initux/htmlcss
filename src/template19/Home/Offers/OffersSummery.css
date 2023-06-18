@@ -1,0 +1,92 @@
+.tmp6-offers-summery-container{
+    margin-top: .5rem;
+    background-color: #fff;
+    border: 2px solid #eee;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.tmp6-offers-summery-inner{
+    /* display: grid;
+    grid-template-columns: 40% 60%; */
+}
+.tmp6-offers-summery-inner .tmp6-offers-summery-inner-image{
+    position: relative;
+}
+.tmp6-offers-summery-inner .tmp6-offers-summery-inner-image .image {
+    width: 237px;
+    height: 237px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tmp6-offers-summery-inner-image .image img{
+    width: 100%;
+    /* height: auto; */
+}
+.tmp6-offers-summery-container .hot{
+    color: #fff;
+    font-size: 12px;
+    width: 45px;
+    height: 25px;
+    text-transform: uppercase;
+    /* background: #fdd922; */
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.tmp6-offers-summery-container h4{
+    font-size:14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.tmp6-offers-summery-container .tmp6-offers-add-cart-btn{
+    background-color: transparent;
+    margin-right: 10px;
+    width: 100%;
+}
+.tmp6-offers-summery-container .tmp6-offers-eye{
+    /* border: 1px solid #009245;
+    color: #009245; */
+    padding: 6px 10px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 395px) and (max-width: 500px) {
+    .tmp6-offers-summery-inner .tmp6-offers-summery-inner-image .image{
+        height: 140px;
+        width: 140px;
+     }
+     .tmp6-offers-summery-container .tmp6-offers-add-cart-btn {
+        width: 109px;
+        font-size: 13px;
+    }
+    .tmp6-offers-summery-container .tmp6-offers-eye {
+        padding: 4px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 395px) {
+    .tmp6-offers-summery-inner .tmp6-offers-summery-inner-image .image{
+        height: 140px;
+        width: 140px;
+     }
+     .tmp6-offers-summery-container .tmp6-offers-add-cart-btn {
+        width: 109px;
+        font-size: 11px;
+    }
+    .tmp6-offers-summery-container .tmp6-offers-eye {
+        padding: 3px;
+    }
+}

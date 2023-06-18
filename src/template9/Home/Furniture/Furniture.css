@@ -1,0 +1,120 @@
+.tmp9-furniture-container{
+    background-color: #fff;
+    height: 400px;
+}
+.tmp9-furniture-top-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 30px;
+}
+.tmp9-furniture-top-left{
+    width: 50%;
+}
+.tmp9-furniture-top-left h2{
+    font-size: 2rem;
+    letter-spacing:0.1rem;
+    font-weight:800;
+}
+
+.tmp9-furniture-top-right{
+    width: 50%;
+    margin-bottom: -20px;
+}
+.tmp9-furniture-top-right p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #617d98;
+    font-weight:400;
+}
+
+.tmp9-furniture-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tmp9-furniture-inner-details{
+    border-radius:5px;
+    padding: 20px;
+    text-align: center;
+    height: 290px;
+    width: 350px;
+}
+
+.tmp9-furniture-inner-details h3{
+    color: #fff;
+}
+.tmp9-furniture-inner-details p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight:400;
+}
+.tmp9-furniture-icon{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+@media only screen and (min-width: 280px) and (max-width:992px) {
+    .tmp9-furniture-container .container{
+        max-width: 100% !important;
+    }
+    .tmp9-furniture-top-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:  0 auto !important;
+    }
+    .tmp9-furniture-top-left{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .tmp9-furniture-top-right{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .tmp9-furniture-inner-details{
+        margin-bottom: 20px !important;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width:1200px) {
+    .tmp9-furniture-container{
+        height: 1000px;
+    }
+    .tmp9-furniture-inner-details{
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width:767px) {
+    .tmp9-furniture-inner{
+        display: flex;
+        justify-content: center;
+    }
+    .tmp9-furniture-container{
+        height: 1370px;
+    }
+    .tmp9-furniture-inner{
+        top: 320px;
+    }
+    .tmp9-furniture-inner-details{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:420px) {
+    .tmp9-furniture-container{
+        height: 1250px;
+    }
+    .tmp9-furniture-top-section{
+        padding: 0px;
+    }
+}
+

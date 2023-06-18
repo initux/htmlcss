@@ -1,0 +1,149 @@
+.modal-window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+  
+}
+/* .modal-window.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+} */
+.modal-headerr{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    /* background-color: aqua; */
+}
+.modal-titlee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-title-textt{
+    /* background-color: red; */
+    font-size: 24px;
+    font-weight: bold;
+     margin: 0px;
+}
+
+.error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-message span{
+    color: red;
+}
+.modal-close-btn{
+    /* background-color: rgb(129, 124, 124); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-icon{
+    background-color:  brown;
+    width: 43px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+.modal-body{
+    padding: 20px;
+}
+.form-controll{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-controll label{
+    /* width: 260px; */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.input-require{
+    color: red;
+}
+.form-controll input, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 1px solid rgb(206, 206, 206);
+    border: none;
+    background-color: transparent;
+    
+}
+.form-controll select{
+ -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+}
+.form-controll input:focus, select:focus{
+    outline-color: rgb(166, 149, 25);
+    background-color: transparent;
+   
+}
+.modal-footerr{
+    padding: 10px 10px 20px 10px;
+}
+.modal-submit-btn{
+    /* background-color: brown; */
+    padding: 12px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .modal-window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+}
+}
+
+
+@media screen and (max-width: 700px) {
+  .modal-window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.form-controll{
+    display: static;
+    grid-template-columns: 1fr;
+}
+.form-controll label{
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+}
